@@ -59,7 +59,7 @@ pub fn build(b: *std.Build) void {
             sdl.linkFramework("Carbon");
             sdl.linkFramework("CoreAudio");
             sdl.linkFramework("AudioToolbox");
-            sdl.linkFramework("AVFoundation");
+            // sdl.linkFramework("AVFoundation");
             sdl.linkFramework("Foundation");
         },
         else => {
